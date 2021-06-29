@@ -1,5 +1,5 @@
 
-const staticCacheName = 'sss-diario-7';
+const staticCacheName = 'sss-diario-8';
 var filesToCache = [
   '/',
   '/index.html',
