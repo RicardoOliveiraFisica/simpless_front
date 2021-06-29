@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>SSS-diárioS de claSSe</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/sss-icon-152.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1fa1f2"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
+  <meta name="apple-mobile-web-app-title" content="SSS-diárioS de claSSe">
+  <meta name="msapplication-TileImage" content="images/sss-icon-144.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+</head>
+<body class="fullscreen">	
+  <main id="mainContainer">
+  <div class="container">
+	<p id="nomeProf"></p>
+	<section id="controle" class="Ativo">
+		<input type="button" name="openNotas" id="openNotas" value="Notas" onclick="openNot();">
+        <input type="button" name="openChamada" id="openChamada" value="Diário" onclick="openCham();">
+		<input type="button" name="openDiario" id="openDiario" value="Visualizar" onclick="openDiario();">
+	</section>	
+	<section id="controlsSave" class="Ativo">	
+		<input type="button" name="voltarEscola" id="voltarEscola" value="Sair" onclick="voltarEscola()">
+	</section>
+	<section id="aviso"  class="Inativo">
+	</section>	
+  </div>
+  </main>
+    <section id="logo" class="Ativo">
+		<h1 class="title"><span id="s1">S</span>imple<span id="s2">S</span><span id="s3">S</span></h1>		
+	</section>
+	<section id="carregamento" class="Inativo">
+		<div id="carregando">
+			<h1 style="margin: 0;"><span id="s4">S</span><span id="s5">S</span><span id="s6">S</span><span id="s7"></span></h1>
+			<h2 style="margin: 0;"><label id="resposta"></label><h2>
+		</div>
+	</section>
+  <script src="js/main.js"></script>
+  <script src="js/mainSelectOption.js"></script>
+</body>
+</html>
