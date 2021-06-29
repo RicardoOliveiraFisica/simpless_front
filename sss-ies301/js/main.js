@@ -2,9 +2,10 @@ var carregador = null;
 var avisador = null;
 var tam = 0;
 var infoAno = '2021';
-//var totAulaDia = 7;
-//var totAluno = 70;
-	
+var startDate1Sem = new Date("8/04/2021");
+var fimDate1Sem = new Date("7/25/2021");
+var startDate2Sem = new Date("7/26/2021");
+
 var infoProf = null; //0 name,1 RM,2 senha,3 [hash: turma],4 bim,5 date,6 turmaSelected,7 numAula[or idAval],8 chamORcont,9 msg
 var infoTurmas = null;//[id, turma, [nomeAluno, sit, dataSit]]
 var diarios = null; 
